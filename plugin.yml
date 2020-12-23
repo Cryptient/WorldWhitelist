@@ -1,5 +1,5 @@
-name: World Whitelist
-main: com.NightNetwork.main.plugin
+name: World-Whitelist
+main: com.NightNetwork.main.Plugin
 version: 1.0.0 (alpha)
 api-version: 1.16
 load: STARTUP
@@ -7,5 +7,9 @@ author: Cryptient
 commands:
    WorldWhitelist:
      description: add or remove players from whitelist
-     usage: /WorldWhitelist <add|remove> <player name> <world>
+     usage: /WorldWhitelist <add|remove> <player name> <world name>
      aliases: [ww, worldwhitelist, worldwl]
+   WorldName:
+      description: get the name that your current world is identified by
+      usage: /WorldName
+      aliases: [worldname, wName, wname]
